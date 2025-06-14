@@ -46,6 +46,7 @@ function getCardHTML(product) {
     `;
 }
 
+
 // Відображаємо товари на сторінці
 getProducts().then(function (products) {
     let productsList = document.querySelector('.products-list')
